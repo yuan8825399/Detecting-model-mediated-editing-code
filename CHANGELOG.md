@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+* Fix the pipeline entry point's E402 lint error while retaining direct execution
+  from any working directory. This unblocks the test and audit steps in GitHub CI.
+* Align the NumPy minimum with the recorded reproduction environment (1.26.4), so
+  installing the package does not conflict with `requirements-reproduction.txt`.
+
 ## 1.0.0
 
 Initial release accompanying the manuscript.

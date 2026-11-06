@@ -21,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
-from provenance.config import RESULTS_DIR, PROCESSED_DIR, DATA_DIR
+from provenance.config import RESULTS_DIR, PROCESSED_DIR, DATA_DIR  # noqa: E402
 
 # name, script, minutes, heavy, description
 STAGES = [
