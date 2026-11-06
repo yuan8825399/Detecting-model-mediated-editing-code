@@ -1,0 +1,47 @@
+{
+ "alpha": 0.1,
+ "thrA": 0.953055554663011,
+ "ruleA": {
+  "rule": "Threshold (5% FPR, calibration)",
+  "issued": 1462,
+  "issued_rate": 1.0,
+  "silent_errors": 487,
+  "silent_error_per_1000": 333.10533515731873,
+  "abstained": 0,
+  "precision_present": 0.9879253567508233,
+  "precision_absent": 0.1361161524500908
+ },
+ "ruleB": {
+  "rule": "PAL-CP (class-conditional conformal)",
+  "issued": 1174,
+  "issued_rate": 0.8030095759233926,
+  "silent_errors": 152,
+  "silent_error_per_1000": 103.9671682626539,
+  "abstained": 288,
+  "precision_present": 0.9868951612903226,
+  "precision_absent": 0.2362637362637363
+ },
+ "coverage": [
+  0.8714090287277702,
+  0.896032831737346,
+  0.9192886456908345
+ ],
+ "coverage_edited": 0.8989825581395349,
+ "coverage_human": 0.8488372093023255,
+ "q_pos": 0.08123110048521398,
+ "q_neg": 0.9476203339355616,
+ "undecidable": 288,
+ "empty": 0,
+ "false_absent": 139,
+ "e1_share_of_false_absent": 0.8561151079136691,
+ "presence_auc": 0.8464330381287183,
+ "marginal_conformal": {
+  "q": 0.10152257351276062,
+  "coverage": 0.9151846785225718,
+  "cov_edited": 0.9723837209302325,
+  "cov_human": 0.0,
+  "empty": 56,
+  "empty_human": 18,
+  "present_human": 68
+ }
+}

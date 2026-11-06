@@ -1,0 +1,26 @@
+# generated intermediates
+processed/
+*.pkl
+*.npy
+!results/*.npy
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# documents produced locally
+*.docx
+!docs/**/*.docx
+
+# os
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+﻿subfield,administrative,civil_commercial,constitutional,criminal,legal_theory_history,other
+administrative,11,0,0,0,1,0
+civil_commercial,0,12,0,0,0,0
+constitutional,1,0,11,0,0,0
+criminal,0,0,0,12,0,0
+legal_theory_history,1,2,1,1,5,2
+other,0,1,0,1,2,2

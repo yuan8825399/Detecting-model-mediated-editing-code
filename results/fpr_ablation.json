@@ -1,0 +1,78 @@
+{
+ "operating_points": [
+  {
+   "operating_point": "5%",
+   "threshold": 0.8209553824839481,
+   "calibration_fpr": 0.060240963855421686,
+   "test_fpr": 0.09302325581395349,
+   "test_fpr_lo": 0.04789171128373091,
+   "test_fpr_hi": 0.1729592085574117,
+   "test_tpr": 0.6199127906976745,
+   "test_tpr_lo": 0.5939644790462113,
+   "test_tpr_hi": 0.6451934069024369
+  },
+  {
+   "operating_point": "1%",
+   "threshold": 0.8780514406261866,
+   "calibration_fpr": 0.012048192771084338,
+   "test_fpr": 0.046511627906976744,
+   "test_fpr_lo": 0.018233673172959066,
+   "test_fpr_hi": 0.11357163750717128,
+   "test_tpr": 0.46584302325581395,
+   "test_tpr_lo": 0.43961735235945243,
+   "test_tpr_hi": 0.49225888618850844
+  }
+ ],
+ "roc_tpr_at_1pct": 0.1086046511627907,
+ "roc_tpr_at_5pct": 0.5709302325581395,
+ "ablation": [
+  {
+   "variant": "char n-gram only",
+   "C_tuned": 4.0,
+   "auc_matched": 0.8402810640886966,
+   "tpr5_matched": 0.5709302325581395,
+   "auc_fixedC_unweighted": 0.838202237696052,
+   "tpr5_fixedC_unweighted": 0.570639534883721
+  },
+  {
+   "variant": "stylometric only",
+   "C_tuned": 0.25,
+   "auc_matched": 0.789417421579232,
+   "tpr5_matched": 0.3691860465116279,
+   "auc_fixedC_unweighted": 0.7713755746349377,
+   "tpr5_fixedC_unweighted": 0.2376453488372093
+  },
+  {
+   "variant": "stylometric, no length",
+   "C_tuned": 0.25,
+   "auc_matched": 0.7884667387777176,
+   "tpr5_matched": 0.38372093023255816,
+   "auc_fixedC_unweighted": 0.7790782179556517,
+   "tpr5_fixedC_unweighted": 0.353125
+  },
+  {
+   "variant": "fused",
+   "C_tuned": 1.0,
+   "auc_matched": 0.7982820105462411,
+   "tpr5_matched": 0.4120639534883721,
+   "auc_fixedC_unweighted": 0.7895526297998917,
+   "tpr5_fixedC_unweighted": 0.32776162790697677
+  },
+  {
+   "variant": "fused, no length",
+   "C_tuned": 4.0,
+   "auc_matched": 0.7925103096268253,
+   "tpr5_matched": 0.44694767441860467,
+   "auc_fixedC_unweighted": 0.789273762844781,
+   "tpr5_fixedC_unweighted": 0.39091569767441864
+  },
+  {
+   "variant": "metadata-only control",
+   "C_tuned": NaN,
+   "auc_matched": 0.504550601676582,
+   "tpr5_matched": 0.060247093023255816,
+   "auc_fixedC_unweighted": NaN,
+   "tpr5_fixedC_unweighted": NaN
+  }
+ ]
+}

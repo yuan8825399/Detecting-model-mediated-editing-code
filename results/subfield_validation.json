@@ -1,0 +1,14 @@
+{
+ "n": 66,
+ "agreement": 0.803030303030303,
+ "kappa": 0.7608695652173914,
+ "per_stratum": {
+  "administrative": 0.917,
+  "civil_commercial": 1.0,
+  "constitutional": 0.917,
+  "criminal": 1.0,
+  "legal_theory_history": 0.417,
+  "other": 0.333
+ },
+ "n_errors": 13
+}

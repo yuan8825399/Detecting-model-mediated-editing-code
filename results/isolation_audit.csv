@@ -1,0 +1,52 @@
+﻿protocol,n_train_docs,n_train_records,n_test_docs,n_test_records,n_calib_docs,n_calib_records,doc_overlap_train_test,doc_overlap_train_calib,doc_overlap_calib_test,isolated,note
+T1-T4 main tasks (train vs test),243,4131,86,1462,0,0,0,0,0,True,
+Hyperparameter selection (train vs dev),243,4131,81,1377,0,0,0,0,0,True,
+Threshold + conformal calibration (train vs calibration),243,4131,83,1411,0,0,0,0,0,True,
+Calibration vs test,83,1411,86,1462,0,0,0,0,0,True,
+LOMO hold-out deepseek,243,3159,86,430,0,0,0,0,0,True,human originals on both sides are distinct documents
+LOMO hold-out doubao,243,3159,86,430,0,0,0,0,0,True,human originals on both sides are distinct documents
+LOMO hold-out kimi,243,3159,86,430,0,0,0,0,0,True,human originals on both sides are distinct documents
+LOMO hold-out wenxin,243,3159,86,430,0,0,0,0,0,True,human originals on both sides are distinct documents
+Cross-model train deepseek -> test deepseek,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train deepseek -> test doubao,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train deepseek -> test kimi,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train deepseek -> test wenxin,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train doubao -> test deepseek,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train doubao -> test doubao,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train doubao -> test kimi,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train doubao -> test wenxin,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train kimi -> test deepseek,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train kimi -> test doubao,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train kimi -> test kimi,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train kimi -> test wenxin,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train wenxin -> test deepseek,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train wenxin -> test doubao,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train wenxin -> test kimi,243,1215,86,430,0,0,0,0,0,True,
+Cross-model train wenxin -> test wenxin,243,1215,86,430,0,0,0,0,0,True,
+LOSO subfield administrative,193,3281,12,204,0,0,0,0,0,True,
+LOSO subfield civil_commercial,181,3077,20,340,0,0,0,0,0,True,
+LOSO subfield constitutional,228,3876,6,102,0,0,0,0,0,True,
+LOSO subfield criminal,195,3315,11,187,0,0,0,0,0,True,
+LOSO subfield legal_theory_history,175,2975,36,612,0,0,0,0,0,True,
+LOSO subfield other,243,4131,1,17,0,0,0,0,0,True,
+Cross-era train 2000-2004 -> test 2000-2004,94,1598,21,357,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2000-2004 -> test 2005-2009,94,1598,19,323,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2000-2004 -> test 2010-2014,94,1598,18,306,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2000-2004 -> test 2015-2020,94,1598,28,476,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2005-2009 -> test 2000-2004,88,1496,21,357,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2005-2009 -> test 2005-2009,88,1496,19,323,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2005-2009 -> test 2010-2014,88,1496,18,306,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2005-2009 -> test 2015-2020,88,1496,28,476,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2010-2014 -> test 2000-2004,89,1513,21,357,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2010-2014 -> test 2005-2009,89,1513,19,323,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2010-2014 -> test 2010-2014,89,1513,18,306,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2010-2014 -> test 2015-2020,89,1513,28,476,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2015-2020 -> test 2000-2004,136,2312,21,357,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2015-2020 -> test 2005-2009,136,2312,19,323,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2015-2020 -> test 2010-2014,136,2312,18,306,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-era train 2015-2020 -> test 2015-2020,136,2312,28,476,0,0,0,0,0,True,train side uses all non-test partitions
+Cross-intensity light->heavy,243,2187,86,774,0,0,0,0,0,True,
+Cross-intensity heavy->light,243,2187,86,774,0,0,0,0,0,True,
+Cross-intensity E1->E4,243,1215,86,430,0,0,0,0,0,True,
+Cross-intensity E2->E3,243,1215,86,430,0,0,0,0,0,True,
+PAL-CP lattice + conformal (train vs calibration vs test),243,4131,86,1462,83,1411,0,0,0,True,

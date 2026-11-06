@@ -1,0 +1,191 @@
+{
+ "coverage_curve": [
+  {
+   "alpha": 0.01,
+   "nominal": 0.99,
+   "variant": "class-conditional",
+   "coverage": 0.993844049247606,
+   "lo": 0.9897400820793434,
+   "hi": 0.9979480164158687,
+   "cov_edited": 0.9934593023255814,
+   "cov_human": 1.0,
+   "decisive": 0.009575923392612859,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.01,
+   "nominal": 0.99,
+   "variant": "marginal",
+   "coverage": 0.9849521203830369,
+   "lo": 0.9794801641586868,
+   "hi": 0.9904240766073872,
+   "cov_edited": 1.0,
+   "cov_human": 0.7441860465116279,
+   "decisive": 0.7489740082079344,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.05,
+   "nominal": 0.95,
+   "variant": "class-conditional",
+   "coverage": 0.96922024623803,
+   "lo": 0.9562243502051984,
+   "hi": 0.9808481532147743,
+   "cov_edited": 0.970203488372093,
+   "cov_human": 0.9534883720930233,
+   "decisive": 0.5957592339261286,
+   "covers_nominal": false
+  },
+  {
+   "alpha": 0.05,
+   "nominal": 0.95,
+   "variant": "marginal",
+   "coverage": 0.9487004103967168,
+   "lo": 0.9445964432284542,
+   "hi": 0.9534883720930233,
+   "cov_edited": 1.0,
+   "cov_human": 0.12790697674418605,
+   "decisive": 0.9822161422708618,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.1,
+   "nominal": 0.9,
+   "variant": "class-conditional",
+   "coverage": 0.896032831737346,
+   "lo": 0.8714090287277702,
+   "hi": 0.9192886456908345,
+   "cov_edited": 0.8989825581395349,
+   "cov_human": 0.8488372093023255,
+   "decisive": 0.8030095759233926,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.1,
+   "nominal": 0.9,
+   "variant": "marginal",
+   "coverage": 0.9151846785225718,
+   "lo": 0.9028727770177839,
+   "hi": 0.926812585499316,
+   "cov_edited": 0.9723837209302325,
+   "cov_human": 0.0,
+   "decisive": 0.9616963064295485,
+   "covers_nominal": false
+  },
+  {
+   "alpha": 0.2,
+   "nominal": 0.8,
+   "variant": "class-conditional",
+   "coverage": 0.801641586867305,
+   "lo": 0.7735807113543092,
+   "hi": 0.8297024623803009,
+   "cov_edited": 0.8059593023255814,
+   "cov_human": 0.7325581395348837,
+   "decisive": 0.9794801641586868,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.2,
+   "nominal": 0.8,
+   "variant": "marginal",
+   "coverage": 0.7961696306429549,
+   "lo": 0.768108755129959,
+   "hi": 0.8242134062927496,
+   "cov_edited": 0.8459302325581395,
+   "cov_human": 0.0,
+   "decisive": 0.8166894664842681,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.3,
+   "nominal": 0.7,
+   "variant": "class-conditional",
+   "coverage": 0.6990424076607387,
+   "lo": 0.6655266757865937,
+   "hi": 0.7332421340629275,
+   "cov_edited": 0.7020348837209303,
+   "cov_human": 0.6511627906976745,
+   "decisive": 0.8522571819425444,
+   "covers_nominal": true
+  },
+  {
+   "alpha": 0.3,
+   "nominal": 0.7,
+   "variant": "marginal",
+   "coverage": 0.7058823529411765,
+   "lo": 0.6723666210670315,
+   "hi": 0.7393980848153214,
+   "cov_edited": 0.75,
+   "cov_human": 0.0,
+   "decisive": 0.7168262653898769,
+   "covers_nominal": true
+  }
+ ],
+ "split_robustness": {
+  "mean": 0.9073529411764707,
+  "sd": 0.016317145993368195,
+  "min": 0.8818785578747628,
+  "max": 0.9364326375711575,
+  "below_nominal": 4
+ },
+ "shift": [
+  {
+   "heldout": "deepseek",
+   "coverage": 0.8488372093023255,
+   "cov_edited": 0.8517441860465116,
+   "cov_human": 0.8372093023255814,
+   "decisive": 0.672093023255814,
+   "n_test": 430
+  },
+  {
+   "heldout": "doubao",
+   "coverage": 0.9116279069767442,
+   "cov_edited": 0.9244186046511628,
+   "cov_human": 0.8604651162790697,
+   "decisive": 0.7674418604651163,
+   "n_test": 430
+  },
+  {
+   "heldout": "kimi",
+   "coverage": 0.6604651162790698,
+   "cov_edited": 0.6191860465116279,
+   "cov_human": 0.8255813953488372,
+   "decisive": 0.8441860465116279,
+   "n_test": 430
+  },
+  {
+   "heldout": "wenxin",
+   "coverage": 0.9116279069767442,
+   "cov_edited": 0.9302325581395349,
+   "cov_human": 0.8372093023255814,
+   "decisive": 0.7930232558139535,
+   "n_test": 430
+  }
+ ],
+ "bootstrap": {
+  "point": {
+   "coverage": 0.896032831737346,
+   "decisive": 0.8030095759233926,
+   "precision_present": 0.9868951612903226,
+   "precision_absent": 0.2362637362637363
+  },
+  "ci": {
+   "coverage": [
+    0.8714090287277702,
+    0.9192886456908345
+   ],
+   "decisive": [
+    0.7667578659370725,
+    0.8358413132694938
+   ],
+   "precision_present": [
+    0.9805631813592586,
+    0.9928571428571429
+   ],
+   "precision_absent": [
+    0.2094123622724076,
+    0.270446162576252
+   ]
+  }
+ }
+}

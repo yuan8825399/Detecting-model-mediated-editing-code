@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, data or method, please cite the article and the archive."
+title: "provenance-audit: model-mediated editing and text detection in Chinese legal abstracts"
+type: software
+authors:
+  - family-names: "[Author 1]"
+    given-names: ""
+    affiliation: "[affiliation]"
+  - family-names: "[Author 2]"
+    given-names: ""
+    affiliation: "[affiliation]"
+  - family-names: "[Author 3]"
+    given-names: ""
+    affiliation: "[affiliation]"
+version: 1.0.0
+date-released: 2026-01-01
+license: MIT
+repository-code: "https://github.com/[owner]/provenance-audit"
+keywords:
+  - machine-generated text detection
+  - provenance
+  - conformal prediction
+  - authorship attribution
+  - research integrity
+  - Chinese legal scholarship
+preferred-citation:
+  type: article
+  title: "Model-mediated editing and text detection in Chinese legal abstracts"
+  authors:
+    - family-names: "[Author 1]"
+    - family-names: "[Author 2]"
+    - family-names: "[Author 3]"
+  year: 2026
+  journal: "[journal]"

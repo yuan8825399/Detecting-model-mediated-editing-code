@@ -1,0 +1,270 @@
+{
+ "n_sources": 493,
+ "n_records": 8381,
+ "n_edited": 7888,
+ "len_mean": 249.59837728194725,
+ "len_sd": 75.87104590762891,
+ "len_min": 106,
+ "len_max": 503,
+ "subfield": {
+  "legal_theory_history": 155,
+  "civil_commercial": 125,
+  "criminal": 90,
+  "administrative": 86,
+  "constitutional": 31,
+  "other": 6
+ },
+ "split": {
+  "calibration": 83,
+  "dev": 81,
+  "test": 86,
+  "train": 243
+ },
+ "table1": {
+  "grammar_correction": {
+   "n": 1972,
+   "ed": 0.017,
+   "ed_med": 0.009,
+   "ins": 0.002,
+   "dele": 0.006,
+   "rep": 0.008,
+   "len_ratio": 0.995,
+   "sent_kept": 0.839,
+   "gram3": 0.983,
+   "d_conn": -0.001,
+   "d_boost": 0.002,
+   "d_slen": -1.207,
+   "punc_b": 0.332
+  },
+  "academic_polish": {
+   "n": 1972,
+   "ed": 0.285,
+   "ed_med": 0.283,
+   "ins": 0.07,
+   "dele": 0.045,
+   "rep": 0.186,
+   "len_ratio": 1.04,
+   "sent_kept": 0.044,
+   "gram3": 0.431,
+   "d_conn": 0.167,
+   "d_boost": 0.568,
+   "d_slen": -0.359,
+   "punc_b": 0.311
+  },
+  "sentence_restructure": {
+   "n": 1972,
+   "ed": 0.334,
+   "ed_med": 0.326,
+   "ins": 0.088,
+   "dele": 0.075,
+   "rep": 0.199,
+   "len_ratio": 1.022,
+   "sent_kept": 0.051,
+   "gram3": 0.459,
+   "d_conn": 0.115,
+   "d_boost": 0.342,
+   "d_slen": -5.841,
+   "punc_b": 0.31
+  },
+  "abstract_rewrite": {
+   "n": 1972,
+   "ed": 0.38,
+   "ed_med": 0.376,
+   "ins": 0.074,
+   "dele": 0.091,
+   "rep": 0.253,
+   "len_ratio": 0.969,
+   "sent_kept": 0.009,
+   "gram3": 0.335,
+   "d_conn": -0.059,
+   "d_boost": 0.478,
+   "d_slen": -2.431,
+   "punc_b": 0.305
+  }
+ },
+ "table2_ed": {
+  "deepseek": {
+   "grammar_correction": 0.013,
+   "academic_polish": 0.12,
+   "sentence_restructure": 0.149,
+   "abstract_rewrite": 0.231
+  },
+  "doubao": {
+   "grammar_correction": 0.015,
+   "academic_polish": 0.339,
+   "sentence_restructure": 0.354,
+   "abstract_rewrite": 0.39
+  },
+  "kimi": {
+   "grammar_correction": 0.01,
+   "academic_polish": 0.317,
+   "sentence_restructure": 0.401,
+   "abstract_rewrite": 0.486
+  },
+  "wenxin": {
+   "grammar_correction": 0.028,
+   "academic_polish": 0.364,
+   "sentence_restructure": 0.434,
+   "abstract_rewrite": 0.412
+  }
+ },
+ "table2_eff": {
+  "deepseek": {
+   "grammar_correction": 0.576,
+   "academic_polish": 0.99,
+   "sentence_restructure": 0.994,
+   "abstract_rewrite": 0.998
+  },
+  "doubao": {
+   "grammar_correction": 0.641,
+   "academic_polish": 1.0,
+   "sentence_restructure": 1.0,
+   "abstract_rewrite": 1.0
+  },
+  "kimi": {
+   "grammar_correction": 0.452,
+   "academic_polish": 1.0,
+   "sentence_restructure": 1.0,
+   "abstract_rewrite": 1.0
+  },
+  "wenxin": {
+   "grammar_correction": 0.998,
+   "academic_polish": 1.0,
+   "sentence_restructure": 1.0,
+   "abstract_rewrite": 1.0
+  }
+ },
+ "verbatim_rate": {
+  "grammar_correction": 0.3332,
+  "academic_polish": 0.0025,
+  "sentence_restructure": 0.0015,
+  "abstract_rewrite": 0.0005
+ },
+ "small_edit_rate": {
+  "grammar_correction": 0.6719,
+  "academic_polish": 0.0127,
+  "sentence_restructure": 0.0076,
+  "abstract_rewrite": 0.001
+ },
+ "verb_at_all": 0.08443204868154158,
+ "verb_E1_by_model": {
+  "deepseek": 0.4239,
+  "doubao": 0.359,
+  "kimi": 0.5477,
+  "wenxin": 0.002
+ },
+ "decomp_all": {
+  "n": 7888,
+  "grand_mean": 0.2539686344139626,
+  "eta2_operation": 0.5146297640907593,
+  "eta2_provider": 0.1405189757699875,
+  "eta2_source_id": 0.07756538005723367
+ },
+ "decomp_E1": {
+  "n": 1972,
+  "grand_mean": 0.016521680169010736,
+  "eta2_operation": 0.0,
+  "eta2_provider": 0.1118262509126698,
+  "eta2_source_id": 0.6643165800801752
+ },
+ "decomp_E2_E4": {
+  "n": 5916,
+  "grand_mean": 0.33311761916227983,
+  "eta2_operation": 0.0565886545492257,
+  "eta2_provider": 0.3606191705390482,
+  "eta2_source_id": 0.19297539198233005
+ },
+ "decomp_academic_polish": {
+  "n": 1972,
+  "grand_mean": 0.2852243738888003,
+  "eta2_operation": 0.0,
+  "eta2_provider": 0.4178544514310931,
+  "eta2_source_id": 0.29346688475209187
+ },
+ "decomp_sentence_restructure": {
+  "n": 1972,
+  "grand_mean": 0.33423676195825147,
+  "eta2_operation": 0.0,
+  "eta2_provider": 0.4099180451333173,
+  "eta2_source_id": 0.2295677907676709
+ },
+ "decomp_abstract_rewrite": {
+  "n": 1972,
+  "grand_mean": 0.3798917216397877,
+  "eta2_operation": 0.0,
+  "eta2_provider": 0.38624490279030144,
+  "eta2_source_id": 0.29385326517377636
+ },
+ "eta2_op": 0.5146297640907593,
+ "eta2_model": 0.1405189757699875,
+ "model_spread_ratio": 2.412361721984359,
+ "op_spread_ratio_E2E4": 1.331904831485037,
+ "mean_ed_by_model": {
+  "deepseek": 0.128,
+  "doubao": 0.275,
+  "kimi": 0.303,
+  "wenxin": 0.31
+ },
+ "kw_op": {
+  "H": 4495.209782135112,
+  "p": 0.0
+ },
+ "kw_model": {
+  "H": 1065.3538659882952,
+  "p": 1.1952023777265823e-230
+ },
+ "wilcoxon_academic_polish_vs_sentence_restructure": {
+  "stat": 20896.0,
+  "p": 6.052611946246725e-36,
+  "mean_diff": -0.04901238806945121
+ },
+ "wilcoxon_sentence_restructure_vs_abstract_rewrite": {
+  "stat": 19837.0,
+  "p": 2.9730560159742434e-38,
+  "mean_diff": -0.045654959681536274
+ },
+ "wilcoxon_academic_polish_vs_abstract_rewrite": {
+  "stat": 1333.0,
+  "p": 5.436683263591369e-79,
+  "mean_diff": -0.0946673477509875
+ },
+ "chi2_E1_identity": {
+  "chi2": 365.1927936061485,
+  "p": 7.652053314815419e-79,
+  "dof": 3
+ },
+ "comp_table": {
+  "2000-2004": {
+   "administrative": 22,
+   "civil_commercial": 31,
+   "constitutional": 6,
+   "criminal": 18,
+   "legal_theory_history": 36,
+   "other": 2
+  },
+  "2005-2009": {
+   "administrative": 17,
+   "civil_commercial": 22,
+   "constitutional": 9,
+   "criminal": 22,
+   "legal_theory_history": 34,
+   "other": 3
+  },
+  "2010-2014": {
+   "administrative": 15,
+   "civil_commercial": 27,
+   "constitutional": 7,
+   "criminal": 20,
+   "legal_theory_history": 38,
+   "other": 0
+  },
+  "2015-2020": {
+   "administrative": 32,
+   "civil_commercial": 45,
+   "constitutional": 9,
+   "criminal": 30,
+   "legal_theory_history": 47,
+   "other": 1
+  }
+ }
+}

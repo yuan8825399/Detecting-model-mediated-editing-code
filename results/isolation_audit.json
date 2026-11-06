@@ -1,0 +1,12 @@
+{
+ "n_protocols": 51,
+ "n_with_overlap": 0,
+ "max_overlap_tt": 0,
+ "max_overlap_tc": 0,
+ "max_overlap_ct": 0,
+ "groups_multi_split": 0,
+ "sources_multi_split": 0,
+ "duplicate_titles": 0,
+ "duplicate_abstracts": 0,
+ "abstracts_spanning_splits": 0
+}
